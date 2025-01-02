@@ -1,0 +1,62 @@
+/* Estilos Principales */
+
+body {
+    background-color: rgb(25, 24, 24);
+    color: rgb(121, 246, 114);
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.parrafo {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Estilos del Input y Botón */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 8px;
+    margin-top: 16px;
+}
+
+button {
+    background-color: rgb(121, 246, 114);
+    color: black;
+    font-weight: bolder;
+    border: none;
+    padding: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: rgb(1, 132, 1);
+}
+
+/* Estilos del Mensaje y de la Cantidad de Intentos */
+
+#mensaje {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#cantidadIntentos {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h4 {
+    margin-bottom: 4px;
+    text-align: center;
+}

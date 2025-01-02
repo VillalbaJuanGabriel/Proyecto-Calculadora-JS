@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanza en JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/juego.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1>Juego de Adivina el Número en JS</h1>
+
+    <p class="parrafo">Ingrese un número del 1 al 100: </p>
+
+    <div class="container">
+        <input type="number" id="numeroEntrada">
+        <button onclick="EvaluarNumero()">Evaluar</button>
+    </div>
+    
+    <p id="mensaje">¡A JUGAR!</p>
+    <h4>Cantidad de Intentos: </h4>
+    <p id="cantidadIntentos">0</p>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
